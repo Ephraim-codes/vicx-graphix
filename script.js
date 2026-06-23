@@ -120,3 +120,5 @@ document.addEventListener("DOMContentLoaded", () => {
       directionObserver.observe(el);
     });
   });
+
+  

@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <link href="https://cdnfonts.com" rel="stylesheet">
+     <link href="https://googleapis.com" rel="stylesheet">
     <title>Vicx Graphix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <style>
+      body, body * {
+      font-family: 'Aloevera Sans', sans-serif !important;
+      font-weight: 400; /* Regular */
+    }
+
+    /* Target headers where you want a bolder, heavy presentation impact weight */
+    .font-aloevera-bold {
+      font-family: 'Aloevera Sans', sans-serif !important;
+      font-weight: 700 !important;
+    }
+
+    .font-aloevera-medium {
+      font-family: 'Aloevera Sans', sans-serif !important;
+      font-weight: 500 !important;
+    }
+
+    /* Isolate your cursive signature logo so it skips the clean font override */
+    .font-mistral {
+      font-family: 'Caveat', cursive !important;
+    }
+
+    .font-brand {
+            font-family: '"Great Vibes"', 'cursive' !important;
+          }
+
+          .font-logo {
+            font-family: 'Mistral', '"Brush Script MT"', 'cursive' !important;
+          }
+
     /* Base starting parameters shared by both animations */
     .reveal-from-left, .reveal-from-right {
       opacity: 0;
@@ -32,7 +66,7 @@
     }
   </style>
 </head>
-<body class="relative min-h-screen w-full overflow-x-hidden bg-[#0A0A0A] font-sans text-white antialiased">
+<body class="relative min-h-screen w-full overflow-x-hidden bg-[#0A0A0A] font-sans text-white antialiased ">
     <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
     <!-- Muted Golden Tech Grid Overlay -->
     <div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(217,119,6,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(217,119,6,0.04)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
@@ -74,7 +108,7 @@
   </nav>
 </div>
     </header>
-    <section id="home" class="reveal-from-left transition-all duration-1000 ease-out flex flex-col items-center justify-center pt-28 pb-16 text-center">
+    <section id="home" class="mx-auto max-w-5xl w-full reveal-from-left transition-all duration-1000 ease-out flex flex-col items-center justify-center pt-28 pb-16 text-center">
   
   <!-- Right-aligned Handler Tag Wrapper -->
   <div class="reveal-hidden transition-all duration-1000 ease-out mb-8 flex w-full max-w-3xl justify-end px-4 sm:px-6">
@@ -98,98 +132,95 @@
     Delivering high-impact visual design
   </p>
 
-  <div class="reveal-hidden transition-all duration-1000 ease-out relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#070707] p-6 shadow-[0_24px_80px_rgba(0,0,0,0.9)] backdrop-blur-2xl ring-1 ring-white/5 sm:p-10 md:p-12">
+  <div class="relative overflow-hidden rounded-[2.5rem] border border-white/15 bg-white/[0.02] p-6 pb-0 shadow-[0_32px_100px_rgba(0,0,0,0.8)] backdrop-blur-xl ring-1 ring-white/5 sm:p-10 sm:pb-0 md:p-12 md:pb-0">
     
-    <!-- 🖼️ ADVANCED COMPOSITE VISUAL BACKDROP CANVAS (Do Not Edit Content Inside Here) -->
+    <!-- Local Internal Accent Lights Inside the Glass Canvas Wrapper -->
     <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-      <!-- 1. Card-Isolated Dark Amber Theme Grid -->
-      <div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(217,119,6,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(217,119,6,0.03)_1px,transparent_1px)] bg-[size:3.5rem_3.5rem]"></div>
-      
-      <!-- 2. The Internal Specular Golden Top-Right Light Node -->
-      <div class="absolute top-[-20%] right-[-10%] h-[350px] w-[350px] rounded-full bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.18)_0%,transparent_70%)] blur-[40px]"></div>
-      
-      <!-- 3. The Deep Core Bronze Center-Right Ambient Halo (Sits directly behind your portrait image slot) -->
-      <div class="absolute top-[20%] right-[5%] h-[400px] w-[400px] rounded-full bg-[radial-gradient(circle_at_center,rgba(217,119,6,0.14)_0%,transparent_75%)] blur-[50px]"></div>
-      
-      <!-- 4. Subtle Smoke Mask (Ensures extreme text contrast on small mobile viewports) -->
-      <div class="absolute inset-0 bg-gradient-to-r from-[#070707]/90 via-[#070707]/40 to-transparent md:via-transparent"></div>
+      <!-- Glow bubble focused beneath your portrait on the right -->
+      <div class="absolute bottom-0 right-[5%] h-[400px] w-[400px] rounded-full bg-[radial-gradient(circle_at_center,rgba(217,119,6,0.12)_0%,transparent_75%)] blur-[50px]"></div>
     </div>
 
-    <!-- 4a. CARD INNER HEADER ROW (Elevated to Layer 10) -->
-    <div class="relative z-10 mb-8 flex flex-col items-start justify-between gap-4 border-b border-white/5 pb-6 sm:flex-row sm:items-center sm:gap-0">
+    <!-- 4a. CARD INNER HEADER TITLE ROW -->
+    <div class="relative z-30 mb-8 flex flex-row items-center justify-between border-b border-white/5 pb-5">
       <div>
-        <span class="font-signature text-2xl tracking-wide text-amber-200/90 antialiased block selection:bg-transparent">
+        <span class="font-logo text-2xl tracking-wider text-amber-200/90 antialiased block sm:text-3xl">
           vicxgraphix
         </span>
       </div>
-      
-      <div class="flex flex-wrap items-center gap-4 text-[11px] font-medium tracking-wider text-gray-400 uppercase sm:gap-6">
+      <div class="flex items-center gap-4 text-[10px] tracking-wider text-gray-400 uppercase font-normal sm:gap-6 sm:text-[11px]">
         <span class="cursor-default transition-colors hover:text-white">Branding</span>
         <span class="cursor-default transition-colors hover:text-white">Social Content</span>
         <span class="cursor-default transition-colors hover:text-white">Creative Design</span>
       </div>
     </div>
 
-    <!-- 4b. MAIN GRID STRUCTURE WORKSPACE -->
-    <div class="relative z-10 grid grid-cols-1 gap-8 md:grid-cols-12 md:items-end md:gap-4">
+    <!-- 4b. FIXED SIDE-BY-SIDE SIDE PANEL DOCK (Flex Layout Prevents Text Tearing) -->
+    <div class="relative w-full flex flex-row items-stretch justify-between gap-6">
       
-      <!-- LEFT INNER TEXT ROW (Occupies 7/12 layout tracks on desktop) -->
-      <div class="flex flex-col items-start justify-end md:col-span-7 lg:col-span-6">
+      <!-- LEFT WORKSPACE COLUMN: WRITE-UP TEXT LAYOUT (Locked strictly to 52% to shield your photo) -->
+      <div class="relative z-20 w-[55%] flex flex-col items-start justify-end pb-8 text-left md:w-[52%] md:pb-12 lg:w-[50%]">
         
-        <!-- Main Bold Capability Header -->
-        <h2 class="text-2xl font-bold tracking-tight text-white sm:text-4xl md:text-[2.65rem] md:leading-[1.12]">
+        <!-- Main Capability Headline -->
+        <h2 class="font-aloevera-medium text-xl font-bold tracking-tight text-white sm:text-3xl md:text-[2.65rem] md:leading-[1.12]">
           Visual Designer,<br />
           Brand Strategist &<br />
           <span class="bg-gradient-to-r from-gray-400 via-gray-300 to-gray-500 bg-clip-text text-transparent opacity-90">Social Media Manager</span>
         </h2>
 
-        <!-- Context Profile Briefing Intro Segment -->
-        <p class="mt-5 max-w-md text-xs font-light leading-relaxed tracking-wide text-gray-300 sm:text-sm">
+        <!-- Context Biography Profile Paragraph -->
+        <p class="font-aloevera-medium mt-5 text-[11px] leading-relaxed tracking-wide text-gray-300 sm:text-xs md:text-sm">
           Hi, I'm Victory David, I'm a creative passionate about seamless design, print and digital strategy. My focus is on creating visual presentations that connect brands to their audiences.
         </p>
 
-        <!-- Interactive CTA Orange Link Button Element -->
-        <a href="#projects" data-target="projects" class="nav-trigger group mt-6 flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 py-1.5 pl-2 pr-5 text-xs font-medium text-amber-200 shadow-[0_4px_20px_rgba(245,158,11,0.15)] backdrop-blur-sm transition-all duration-300 hover:bg-amber-500/20 hover:text-white">
-          <span class="flex h-6 w-6 items-center justify-center rounded-full bg-amber-500 text-black shadow-inner transition-transform group-hover:translate-y-0.5">
+        <!-- Interactive See My Works Glass Pill Button -->
+        <a href="#projects" data-target="projects" class="nav-trigger group mt-6 flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 py-1.5 pl-2 pr-5 text-xs font-normal text-amber-200 shadow-[0_4px_20px_rgba(245,158,11,0.15)] backdrop-blur-sm transition-all duration-300 hover:bg-amber-500/20 hover:text-white">
+          <span class="flex h-5 w-5 items-center justify-center rounded-full bg-amber-500 text-[10px] font-bold text-black shadow-inner transition-transform group-hover:translate-y-0.5">
             ↓
           </span>
           See my works
         </a>
 
-        <!-- Lower Skill Anchors Stack Panel with Experience Counter Label -->
-        <div class="relative mt-10 w-full max-w-md pb-2">
-          <div class="flex items-end justify-between">
-            <div class="flex flex-col space-y-0.5 text-[10px] tracking-wider text-gray-400 uppercase font-medium">
+        <!-- Lower Skill Anchors Stack Panel with Experience Badge -->
+        <div class="relative mt-10 w-full pb-2">
+          <div class="flex items-end justify-between gap-2">
+            <div class="flex flex-col space-y-0.5 text-[8px] tracking-wider text-gray-400 uppercase font-normal sm:text-[10px]">
               <span>Precision Design</span>
               <span>Strategic Management</span>
               <span>Visual Authority</span>
             </div>
-            
             <div class="text-right">
-              <span class="block bg-gradient-to-r from-amber-200 to-amber-400 bg-clip-text text-xl font-bold tracking-tight text-transparent sm:text-2xl">7 years</span>
-              <span class="text-[9px] uppercase tracking-widest text-gray-500 font-medium">Experience</span>
+              <span class="block bg-gradient-to-r from-amber-200 to-amber-400 bg-clip-text text-lg font-bold tracking-tight text-transparent sm:text-2xl">7 years</span>
+              <span class="text-[8px] uppercase tracking-widest text-gray-500 font-normal">Experience</span>
             </div>
           </div>
-          
           <div class="absolute bottom-0 left-0 h-[1.5px] w-full bg-gradient-to-r from-amber-500/30 via-amber-500/10 to-transparent"></div>
         </div>
       </div>
 
-      <!-- RIGHT INNER PICTURE CANVAS (Occupies 5/12 layout tracks on desktop) -->
-      <div class="relative flex justify-center md:col-span-5 md:justify-end lg:col-span-6">
-        <!-- Local Dynamic Gradient Aura Backlight Spot directly backing your image cut-out -->
-        <div class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(217,119,6,0.22)_0%,transparent_60%)] blur-[30px] pointer-events-none"></div>
-        
-        <!-- Portrait Framing Window Component Container Box Layer -->
-        <div class="relative z-10 w-full max-w-[320px] overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/[0.04] to-transparent shadow-[0_20px_50px_rgba(0,0,0,0.6)] backdrop-blur-sm transition-transform duration-500 hover:scale-[1.01]">
-          <!-- PORTRAIT ATTACHMENT NODE: Swap out URL with your actual crisp portrait file name -->
-          <img 
-            src="./photo_2026-06-20_04-07-07-removebg-preview (1).png" 
-            alt="Victory David Profile Clear Portrait representation" 
-            class="h-auto w-full object-cover mix-blend-normal filter contrast-[1.02] brightness-[0.97]"
-          />
-        </div>
-      </div>
+      <!-- RIGHT PORTRAIT COLUMN: SHIFTED FLUSH AGAINST EDGE BOUNDARIES (Takes remaining width) -->
+      <!-- 
+        - 'w-[45%]' guarantees it will stay locked right alongside the text row layout on all dimensions.
+        - '-mr-6 -mb-6' pulls the outer boundaries past the glass borders to seal flush.
+      -->
+      <div class="relative z-10 w-[45%] flex justify-end -mr-6 -mb-6 sm:-mr-10 sm:-mb-10 md:relative md:inset-auto md:w-[48%] lg:w-[46%] md:overflow-visible md:-mr-12 md:-mb-12">
+  <div class="relative w-full overflow-hidden rounded-t-[2rem] md:rounded-tr-none flex items-end md:overflow-visible">
+    
+    <!-- Smooth Horizontal Blend Fog -->
+    <div class="absolute inset-0 z-20 bg-gradient-to-r from-[#0a0a0b] via-transparent to-transparent opacity-40 pointer-events-none"></div>
+    
+    <!-- 
+      🚀 THE ZOOM ENGINE: 
+      - Changing 'scale-115' to 'md:scale-[1.35]' enlarges the picture by 35% on desktop viewports.
+      - 'origin-bottom' pins the bottom of your torso to the card floor.
+      - 'md:-translate-y-6' and 'md:translate-x-4' shift the scaled portrait upward and outward, keeping it clear of the text line bounds.
+    -->
+    <img 
+      src="photo_2026-06-20_03-32-47-removebg-preview.png" 
+      alt="Victory David Profile Clear Portrait" 
+      class="h-auto w-full object-cover object-bottom block scale-[1.90] md:scale-[1.65] origin-bottom md:-translate-x-[138px] -translate-x-[110px] antialiased"
+    />
+  </div>
+</div>
 
     </div>
 
@@ -212,7 +243,7 @@
         </div>
 
 </section>
-<section class="reveal-from-right transition-all duration-1000 ease-out mx-auto mt-16 w-full max-w-6xl px-4 pb-20">
+<section class=" max-w-5xl reveal-from-right transition-all duration-1000 ease-out mx-auto mt-16 w-full  px-4 pb-20">
   
   <!-- Pill Header Container -->
   <div class="mb-10 flex justify-start">
@@ -260,7 +291,7 @@
 
   </div>
 </section>
-<section class="reveal-from-left transition-all duration-1000 ease-out mx-auto mt-16 w-full max-w-5xl px-4 pb-24">
+<section class=" reveal-from-left transition-all duration-1000 ease-out mx-auto mt-16 w-full max-w-5xl px-4 pb-24">
   
   <!-- Section Badge Indicator -->
   <div class="mb-8 flex justify-start">
@@ -302,13 +333,7 @@
 
     <!-- BOTTOM RIGHT: Small Cursive Signature -->
     <div class="mt-8 text-right sm:absolute sm:bottom-0 sm:right-4 sm:mt-0">
-      <style>
-        @import url('https://googleapis.com');
-        .font-signature {
-          font-family: 'Great Vibes', cursive;
-        }
-      </style>
-      <p class="font-signature text-xl tracking-wide text-amber-200/90 antialiased block selection:bg-transparent">
+      <p class="font-logo text-xl tracking-wide text-amber-200/90 antialiased block selection:bg-transparent">
         vicxgraphix
       </p>
     </div>
@@ -478,15 +503,15 @@
     
     <!-- 4a. LEFT COLUMN: THE SEPARATE PORTRAIT CARD WINDOW (Spans 5 columns) -->
     <div class="flex justify-center md:col-span-5 md:justify-start">
-      <div class="relative w-full max-w-[360px] overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#111111]/40 p-1 shadow-2xl backdrop-blur-md">
+      <div class="relative w-full max-w-[360px] overflow-hidden rounded-tl-[1.5rem] rounded-tr-[1.5rem] rounded-br-[5.0rem] rounded-bl-[1.5rem] border border-white/10 bg-[#111111]/40 p-1 shadow-2xl backdrop-blur-md">
         <!-- Local Subtle Amber Aura behind the portrait image -->
-        <div class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(217,119,6,0.15)_0%,transparent_70%)] blur-[30px] pointer-events-none"></div>
+        <div class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(217,119,6,0.15)_0%,transparent_70%)] blur-[30px]  pointer-events-none"></div>
         
         <!-- INNER PORTRAIT CONTAINER FRAME -->
-        <div class="relative z-10 overflow-hidden rounded-[2.2rem] bg-gradient-to-b from-white/[0.03] to-transparent">
+        <div class="relative z-10 overflow-hidden rounded-tl-[1.5rem] rounded-tr-[1.5rem] rounded-br-[5.0rem] rounded-bl-[1.5rem] bg-gradient-to-b from-white/[0.03] to-transparent">
           <!-- PLACE YOUR SEPARATE CRISP PORTRAIT PHOTO PATH HERE -->
           <img 
-            src="photo_2026-06-20_06-17-58.jpg" 
+            src="photo_2026-06-21_19-33-30.jpg" 
             alt="Victory David Professional Portrait" 
             class="h-auto w-full object-cover object-center filter contrast-[1.02] brightness-[0.98]"
           />
@@ -596,42 +621,10 @@
   </div>
 
   <!-- Modernized Profile Grid (Replaces raw screenshots with sleek UI Cards) -->
-  <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8">
+  
     
     <!-- Premium Instagram Status Card -->
-    <div class="group reveal-from-left transition-all duration-1000 ease-out relative flex flex-col justify-between overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-6 shadow-xl backdrop-blur-sm transition-all duration-500 hover:-translate-y-1 hover:border-amber-500/20">
-      <div class="flex items-center justify-between border-b border-white/5 pb-4">
-        <div class="flex items-center gap-3">
-          <div class="h-10 w-10 rounded-full border border-amber-500/30 bg-gradient-to-tr from-amber-400 to-yellow-600 p-0.5">
-            <div class="h-full w-full rounded-full bg-[#070707] flex items-center justify-center text-xs font-bold">VG</div>
-          </div>
-          <div>
-            <h4 class="text-sm font-semibold text-white">vicxgraphix</h4>
-            <p class="text-[10px] text-gray-400">Instagram Presence</p>
-          </div>
-        </div>
-        <a href="https://www.instagram.com/vicxgraphix?igsh=MWVxcGVlZ3FxN3gwbA==" target="_blank" class="rounded-full bg-white/10 px-3 py-1 text-[10px] font-medium text-white transition-colors hover:bg-white/20">Follow</a>
-      </div>
-      
-      <!-- Metrics Strip -->
-      <div class="my-6 grid grid-cols-3 text-center">
-        <div>
-          <span class="block text-base font-bold text-white">109</span>
-          <span class="text-[10px] tracking-wider text-gray-500 uppercase">Posts</span>
-        </div>
-        <div>
-          <span class="block text-base font-bold text-amber-300">2,415</span>
-          <span class="text-[10px] tracking-wider text-gray-500 uppercase">Followers</span>
-        </div>
-        <div>
-          <span class="block text-base font-bold text-white">21</span>
-          <span class="text-[10px] tracking-wider text-gray-500 uppercase">Following</span>
-        </div>
-      </div>
-      <p class="text-xs font-light leading-relaxed text-gray-400">
-        Brand Visual Designer generating clean, strategic assets that make growing businesses stand out.
-      </p>
-    </div>
+    
 
     <!-- Premium LinkedIn Network Card -->
     <div class="group reveal-from-left transition-all duration-1000 ease-out relative flex flex-col justify-between overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] p-6 shadow-xl backdrop-blur-sm transition-all duration-500 hover:-translate-y-1 hover:border-amber-500/20">
@@ -809,7 +802,7 @@
     
     
     <div class="flex items-center gap-3">
-      <span class="font-signature text-xl tracking-wide text-amber-200/90 antialiased block selection:bg-transparent">
+      <span class="font-logo text-xl tracking-wide text-amber-200/90 antialiased block selection:bg-transparent">
         vicxgraphix
       </span>
       <span class="h-4 w-[1px] bg-white/10 hidden sm:inline-block"></span>
@@ -824,7 +817,7 @@
         &copy; 2026 Vicxgraphix. All Rights Reserved.
       </p>
       <p class="text-[9px] uppercase tracking-widest text-gray-500 font-medium flex items-center gap-1">
-        Built with <span class="text-amber-500/80">✨</span> in Lagos, Nigeria
+        Built with <span class="text-amber-500/80">✨</span> in delta, Nigeria
       </p>
     </div>
 
