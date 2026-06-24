@@ -8,10 +8,15 @@
      <link href="https://googleapis.com" rel="stylesheet">
     <title>Vicx Graphix</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    
     <link href="https://googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <style>
+      @font-face {
+  font-family: 'MyMistralWeb';
+  src: url('./fonts/mistral.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
       body, body * {
       font-family: 'Aloevera Sans', sans-serif !important;
       font-weight: 400; /* Regular */
@@ -38,8 +43,8 @@
           }
 
           .font-logo {
-            font-family: 'Mistral', '"Brush Script MT"', 'cursive' !important;
-          }
+  font-family: 'MyMistralWeb', 'Mistral', 'Brush Script MT', 'cursive' !important;
+}
 
     /* Base starting parameters shared by both animations */
     .reveal-from-left, .reveal-from-right {
@@ -290,56 +295,7 @@
 
   </div>
 </section>
-<section class=" reveal-from-left transition-all duration-1000 ease-out mx-auto mt-16 w-full max-w-5xl px-4 pb-24">
-  
-  <!-- Section Badge Indicator -->
-  <div class="mb-8 flex justify-start">
-    <div class="flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 py-1.5 pl-2 pr-5 text-xs font-medium text-amber-200 shadow-[0_4px_20px_rgba(245,158,11,0.15)] backdrop-blur-sm">
-      <span class="flex h-5 w-5 items-center justify-center rounded-full bg-amber-500 text-[10px] font-bold text-black shadow-inner">
-        ↓
-      </span>
-      <span class="tracking-wide">Business Direction</span>
-    </div>
-  </div>
 
-  <!-- Content Block: Two Paragraphs closely mirroring your reference image -->
-  <div class="max-w-4xl space-y-6 text-sm font-light leading-relaxed tracking-wide text-gray-300 sm:text-base">
-    <p>
-      My Work sits at the intersection of strategic design, digital communication, and creative problem-solving. By combining design expertise with planned formal training in computer science, I am building the foundation for a more robust creative-tech infrastructure within my firm.
-    </p>
-    <p>
-      My vision for Vicxgraphix is to evolve into a premier studio and design academy that drives digital innovation. By integrating advanced technical systems into our creative services, I am positioning the business for long-term growth and higher-impact solutions for the Nigerian market.
-    </p>
-  </div>
-
-  <!-- Footer Row: QR Code Container and Elegant Cursive Script -->
-  <div class="relative mt-14 border-t border-white/5 pt-8">
-    
-    <!-- CENTERED: QR Code Display Layout -->
-    <div class="flex flex-col items-center justify-center gap-4 text-center sm:flex-row">
-      <span class="text-xs tracking-wider text-gray-400 uppercase font-medium">
-        scan to View Full Portfolio:
-      </span>
-      <!-- QR Image Spot Wrapper Container -->
-      <div class="rounded-xl border border-white/10 bg-white p-2.5 shadow-2xl">
-        <img 
-          src="photo_2026-06-20_05-10-57.jpg" 
-          alt="Portfolio Link QR Code" 
-          class="h-24 w-24 object-contain"
-        />
-      </div>
-    </div>
-
-    <!-- BOTTOM RIGHT: Small Cursive Signature -->
-    <div class="mt-8 text-right sm:absolute sm:bottom-0 sm:right-4 sm:mt-0">
-      <p class="font-logo text-xl tracking-wide text-amber-200/90 antialiased block selection:bg-transparent">
-        vicxgraphix
-      </p>
-    </div>
-
-  </div>
-
-</section>
 <section id="projects" class="reveal-from-right transition-all duration-1000 ease-out mx-auto mt-20 w-full max-w-5xl px-4 pb-16">
   
   <!-- Section Badge Indicator -->
@@ -741,6 +697,56 @@
     </div>
 
   </div>
+</section>
+<section class=" reveal-from-left transition-all duration-1000 ease-out mx-auto mt-16 w-full max-w-5xl px-4 pb-24">
+  
+  <!-- Section Badge Indicator -->
+  <div class="mb-8 flex justify-start">
+    <div class="flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 py-1.5 pl-2 pr-5 text-xs font-medium text-amber-200 shadow-[0_4px_20px_rgba(245,158,11,0.15)] backdrop-blur-sm">
+      <span class="flex h-5 w-5 items-center justify-center rounded-full bg-amber-500 text-[10px] font-bold text-black shadow-inner">
+        ↓
+      </span>
+      <span class="tracking-wide">Business Direction</span>
+    </div>
+  </div>
+
+  <!-- Content Block: Two Paragraphs closely mirroring your reference image -->
+  <div class="max-w-4xl space-y-6 text-sm font-light leading-relaxed tracking-wide text-gray-300 sm:text-base">
+    <p>
+      My Work sits at the intersection of strategic design, digital communication, and creative problem-solving. By combining design expertise with planned formal training in computer science, I am building the foundation for a more robust creative-tech infrastructure within my firm.
+    </p>
+    <p>
+      My vision for Vicxgraphix is to evolve into a premier studio and design academy that drives digital innovation. By integrating advanced technical systems into our creative services, I am positioning the business for long-term growth and higher-impact solutions for the Nigerian market.
+    </p>
+  </div>
+
+  <!-- Footer Row: QR Code Container and Elegant Cursive Script -->
+  <div class="relative mt-14 border-t border-white/5 pt-8">
+    
+    <!-- CENTERED: QR Code Display Layout -->
+    <div class="flex flex-col items-center justify-center gap-4 text-center sm:flex-row">
+      <span class="text-xs tracking-wider text-gray-400 uppercase font-medium">
+        scan to View Full Portfolio:
+      </span>
+      <!-- QR Image Spot Wrapper Container -->
+      <div class="rounded-xl border border-white/10 bg-white p-2.5 shadow-2xl">
+        <img 
+          src="photo_2026-06-20_05-10-57.jpg" 
+          alt="Portfolio Link QR Code" 
+          class="h-24 w-24 object-contain"
+        />
+      </div>
+    </div>
+
+    <!-- BOTTOM RIGHT: Small Cursive Signature -->
+    <div class="mt-8 text-right sm:absolute sm:bottom-0 sm:right-4 sm:mt-0">
+      <p class="font-logo text-xl tracking-wide text-amber-200/90 antialiased block selection:bg-transparent">
+        vicxgraphix
+      </p>
+    </div>
+
+  </div>
+
 </section>
 <section class="reveal-from-left transition-all duration-1000 ease-out mx-auto mt-20 w-full max-w-5xl px-4 pb-16">
   <div class="grid grid-cols-1 gap-10 text-center sm:grid-cols-2 md:grid-cols-4 md:text-left md:items-start">
